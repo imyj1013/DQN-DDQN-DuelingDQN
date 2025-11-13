@@ -5,6 +5,12 @@
 - Open ai gym, Pytorch, Matplotlib, numpy 활용
 
 #### 실험 결과 및 분석
+| DQN | DDQN | Dueling DQN |
+|----|----|----|
+|![Image](https://github.com/user-attachments/assets/5da7561e-dea9-4c6c-b384-12f492b83b19)|![Image](https://github.com/user-attachments/assets/d3ff344a-d7e2-45a6-8328-ba38fa21b514)|![Image](https://github.com/user-attachments/assets/916954e4-457a-4639-b5c5-98343853c65c)|
+|![Image](https://github.com/user-attachments/assets/eed2f25c-d404-414a-af95-ce441e2a65ac)|![Image](https://github.com/user-attachments/assets/390c4d5d-1819-454a-b02c-277cda1c23d3)|![Image](https://github.com/user-attachments/assets/e3408c5c-c5dd-4340-9966-d28e2a63dc27)|
+
+
 카트폴과 Lunar lander 실험 결과 카트폴 실험에서 Dueling DQN, DDQN, DQN 순으로 학습을 완료했고 Lunar lander 실험에서 Dueling DQN, DDQN, DQN 순으로 평균 reward가 높게 나왔다. 
 
 Lunar lander 실험에서 Dueling DQN은 value function과 advantage function을 분리하여 계산하므로 Q-value 추정에 안정적이다. 
